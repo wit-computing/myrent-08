@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="org.wit.myrent.ResidenceActivity" >
+
+  <item android:id="@+id/menu_item_new_residence"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="@string/new_residence"
+        android:showAsAction="ifRoom|withText"/>
+
+
+  <item
+      android:id="@+id/action_settings"
+      android:orderInCategory="100"
+      android:showAsAction="never"
+      android:title="@string/settings"/>
+
+</menu>
